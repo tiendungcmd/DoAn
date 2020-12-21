@@ -1,0 +1,25 @@
+﻿
+
+select {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    height: 42px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    background-color: #fff;
+    padding-left: 16px;
+    outline: none;
+    min-width: 50px;
+}
+
+    select:hover {
+        cursor: pointer;
+    }
+
+    select:focus {
+        border: 1px solid #019160;
+    }
+    select.m-filter{
+        min-width: 100px;
+    }

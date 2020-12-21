@@ -1,0 +1,70 @@
+﻿
+/* Định dạng các ô nhập liệu */
+input {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    background-color: white;
+    background-position: 16px 12px;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    padding-left: 16px;
+    border-radius: 4px;
+    border: 1px solid #bbbbbb;
+    outline: none;
+    height: 40px;
+    text-overflow: ellipsis;
+}
+    /* Text hiển thị trong placeholder*/
+    input::-webkit-input-placeholder {
+        font-size: 11px;
+    }
+
+    input:focus {
+        border: 1px solid #019160;
+    }
+
+    input.border-red {
+        border: 1px solid #ff0000;
+    }
+
+.input-search {
+    padding-left: 40px;
+}
+
+.icon-search {
+    background-image: url(/content/icon/search.png);
+    background-repeat: no-repeat;
+    background-position: 16px center;
+}
+/* Datepicker */
+.m-date-picker {
+    display: block;
+}
+
+    .m-date-picker .dateInput {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+        .m-date-picker .dateInput .ui-datepicker-trigger {
+            width: 16px;
+            height: 16px;
+            position: absolute;
+            right: 0px;
+            z-index: 1;
+            border: 12px solid rgba(0, 0, 0, 0.00);
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+            top: 5px;
+        }
+
+        .m-date-picker .dateInput .dateInput-icon-box {
+            width: 40px;
+            height: 40px;
+            border-radius: 0 5px 5px 0;
+            position: absolute;
+            right: 0;
+            z-index: 0;
+        }

@@ -1,0 +1,54 @@
+﻿
+/*Định dạng table*/
+.grid {
+    height: calc(100vh - 235px);
+    margin-top: 10px;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+    .grid table {
+        width: 100%;
+        background-color: #fff;
+    }
+
+        .grid table th {
+            border-bottom: 1px solid #bbbbbb;
+            text-align: left;
+            font-weight: bold !important;
+        }
+
+        .grid table tbody tr:hover {
+            cursor: pointer;
+            background-color: #2FBE8E;
+        }
+
+        .grid table thead > tr {
+            position: relative;
+            display: block;
+        }
+
+        .grid table tbody {
+            display: block;
+            height: calc(100vh - 291px);
+            overflow-y: scroll;
+        }
+
+            .grid table thead tr th, .grid table tbody tr td {
+                border-bottom: 1px solid #bbbbbb;
+                padding: 10px 16px;
+                text-align: left;
+                min-width: 90px;
+                max-width: 90px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+            }
+
+.last-field {
+    width: 100%;
+}
+
+.row-selected {
+    background-color: #EBF9F4 !important;
+}

@@ -1,0 +1,20 @@
+﻿
+
+/* Font dùng chung*/
+body {
+    font-family: GoogleSans-Regular;
+    font-size: 13px;
+    margin: 0px;
+    display: flex;
+    background-color: #e9ebee;
+}
+
+@font-face {
+    font-family: 'GoogleSans-Regular';
+    src: url('/content/font/Google Sans/GoogleSans-Regular.otf') format('opentype');
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}

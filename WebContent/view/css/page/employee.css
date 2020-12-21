@@ -1,0 +1,111 @@
+﻿
+@font-face {
+    font-family: 'GoogleSans-Bold';
+    src: url('/content/font/Google Sans/GoogleSans-Bold.otf') format('opentype');
+}
+/*Tiêu đề nội dung page*/
+.content .header-content {
+    display: flex;
+}
+
+    /* Tiêu đề*/
+    .content .header-content h1 {
+        font-family: GoogleSans-Bold;
+        font-size: 20px;
+        flex: auto;
+    }
+
+    /* Phím chức năng*/
+    .content .header-content .content-feature {
+        display: flex;
+        margin: auto 0px auto 16px;
+        background-color: #019160;
+        border-radius: 4px;
+        color: #ffffff;
+    }
+
+        .content .header-content .content-feature .btn-add {
+            background-image: url('/content/icon/add.png');
+            border: none;
+        }
+
+
+/* Thanh công cụ */
+.content .filter-bar {
+    display: flex;
+    margin-top: 10px;
+}
+
+    /* Tìm kiếm */
+    .content .filter-bar .filter-left {
+        display: flex;
+        flex: auto;
+    }
+
+        .content .filter-bar .filter-left .search {
+            background-image: url('/content/icon/search.png');
+            padding-left: 40px;
+        }
+
+        .content .filter-bar .filter-left select:hover {
+            cursor: pointer;
+        }
+
+    /* Button chức năng*/
+    .content .filter-bar .filter-right {
+        display: flex;
+    }
+
+        .content .filter-bar .filter-right .btn-sync {
+            background-image: url('/content/icon/refresh.png');
+            margin-left: 16px;
+        }
+
+/* Định dạng thanh avatar*/
+.employee-avatar {
+    padding-top: 16px;
+    padding-right: 16px;
+}
+
+    /* Ảnh đại diện*/
+    .employee-avatar .avatar {
+        border: 1px solid #ccc;
+        width: 160px;
+        height: 160px;
+        margin: 0 auto;
+        border-radius: 50%;
+        cursor: pointer;
+        background-image: url('/content/img/default-avatar.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    /* Tên*/
+    .employee-avatar .avatar-note {
+        font-size: 12px;
+    }
+
+.currency-for-input {
+    position: absolute;
+    right: 16px;
+    top: 5px;
+    line-height: 40px;
+    font-style: italic;
+}
+
+/* Kích thước các cột trong table*/
+#FullName, #DepartmentName, #PositionName {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+#GenderName {
+    min-width: 50px;
+    max-width: 50px;
+}
+
+#Email {
+    min-width: 200px;
+    max-width: 200px;
+}

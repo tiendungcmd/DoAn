@@ -1,0 +1,62 @@
+﻿/* Định dạng header toàn trang*/
+
+.header {
+    position: absolute;
+    left: 221px;
+    width: calc(100% - 221px);
+    height: 48px;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #fff;
+}
+
+
+    /* Định dạng left-header, logo chi nhánh MISA*/
+
+    .header .department {
+        margin: auto 16px;
+        line-height: 48px;
+        flex: auto;
+    }
+
+        .header .department select {
+            border: none;
+            padding: 0px;
+        }
+    /* Định dạng right-header, thông báo/ avatar/ option*/
+    .header .account-infor {
+        display: inline-flex;
+        float: right;
+        height: 48px;
+        /*padding-right: 16px;*/
+    }
+
+
+        /* Avatar*/
+
+        .header .account-infor .account-avatar {
+            background-image: url('/content/icon/avatar-default.png');
+            background-size: 28px 28px;
+            width: 28px;
+            height: 28px;
+            border-radius: initial;
+            margin: auto 16px;
+        }
+
+        .header .account-infor .account-name {
+            margin: auto;
+        }
+
+
+        /* Option*/
+
+        .header .account-infor .account-option {
+            background-image: url('/content/icon/option.png');
+            background-size: 16px;
+            width: 16px;
+            height: 16px;
+            margin: auto 16px;
+        }
+
+            .header .account-infor .account-option:hover {
+                cursor: pointer;
+            }
