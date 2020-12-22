@@ -20,6 +20,7 @@ select {
     select:focus {
         border: 1px solid #019160;
     }
-    select.m-filter{
-        min-width: 100px;
+
+    select.m-filter {
+        min-width: 150px;
     }

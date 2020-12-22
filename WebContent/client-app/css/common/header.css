@@ -34,7 +34,7 @@
         /* Avatar*/
 
         .header .account-infor .account-avatar {
-            background-image: url('/content/icon/avatar-default.png');
+            background-image: url('/content/icon/avatar.png');
             background-size: 28px 28px;
             width: 28px;
             height: 28px;

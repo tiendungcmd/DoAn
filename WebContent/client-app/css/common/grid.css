@@ -3,8 +3,8 @@
 .grid {
     height: calc(100vh - 235px);
     margin-top: 10px;
-    overflow-y: hidden;
-    overflow-x: auto;
+    /* overflow-y: hidden;
+    overflow-x: auto;*/
 }
 
     .grid table {
@@ -30,7 +30,7 @@
 
         .grid table tbody {
             display: block;
-            height: calc(100vh - 291px);
+            height: calc(100vh - 273px);
             overflow-y: scroll;
         }
 
@@ -38,8 +38,8 @@
                 border-bottom: 1px solid #bbbbbb;
                 padding: 10px 16px;
                 text-align: left;
-                min-width: 90px;
-                max-width: 90px;
+                /*min-width: 90px;
+                max-width: 90px;*/
                 white-space: nowrap;
                 text-overflow: ellipsis;
                 overflow: hidden;
