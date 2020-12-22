@@ -336,3 +336,7 @@ user agent stylesheet div {
     width: 100%;
     display: flex;
 }
+
+.d-flex {
+    display: flex;
+}

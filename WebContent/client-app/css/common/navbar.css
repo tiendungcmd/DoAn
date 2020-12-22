@@ -16,21 +16,11 @@
         padding-left: 16px;
     }
 
-        .navbar .logo-site .toggle-icon {
-            width: 24px;
-            height: 24px;
-            margin: 12px 10px 12px 0px;
-            background-image: url('/content/icon/toggle.png');
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: contain;
-        }
-
-        .navbar .logo-site .cukcuk-logo {
+        .navbar .logo-site .logo-MTA {
             width: 100%;
             height: 24px;
             margin-top: 12px;
-            background-image: url('/content/img/logo.png');
+            background-image: url('../../content/img/logo-MTA.jpg');
             background-repeat: no-repeat;
             background-position: left;
             background-size: contain;
@@ -76,24 +66,24 @@
     }
 
 /* Danh sách các icon*/
-.navbar-item .document-online-icon {
+.navbar-item .topic-icon {
     background-image: url('/content/icon/document-online.png');
 }
 
-.navbar-item .document-default-icon {
-    background-image: url('/content/icon/document-online.png');
+.navbar-item .officer-icon {
+    background-image: url('/content/icon/avatar.png');
 }
 
-.navbar-item .report-icon {
-    background-image: url('/content/icon/report.png');
+.navbar-item .science-icon {
+    background-image: url('../../content/icon/science.png');
 }
 
-.navbar-item .dashboard-icon {
+.navbar-item .expert-icon {
     background-image: url('/content/icon/dashboard.png');
 }
 
-.navbar-item .dic-employee-icon {
-    background-image: url('/content/icon/dic-employee.png');
+.navbar-item .product-icon {
+    background-image: url('../../content/icon/product.png');
 }
 
 .navbar-item .setting-icon {
